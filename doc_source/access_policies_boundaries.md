@@ -171,7 +171,7 @@ Each statement serves a different purpose:
             ],
             "Resource": "*",
             "Condition": {"StringEquals": 
-                {"iam:PermissionBoundary": "arn:aws:iam::111122223333:policy/XCompanyBoundaries"}}
+                {"iam:PermissionsBoundary": "arn:aws:iam::111122223333:policy/XCompanyBoundaries"}}
         },
         {
             "Sid": "CloudWatchAndOtherIAMTasks",
